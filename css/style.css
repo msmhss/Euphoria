@@ -80,6 +80,7 @@ header ul.sec li div.form input {
     color: #807d7e;
     font-weight: 400;
     font-size: 16px;
+    outline: none;
 }
 header ul.sec li img {
     padding: 12px;
@@ -105,7 +106,8 @@ section.spotlight {
     background-position-y: center;
 }
 section.wrapper {
-    padding: 0px 50px;
+    width: 90%;
+    margin: 0 auto;
 }
 section.spotlight div.box {
     display: flex;
@@ -367,7 +369,7 @@ section.arrival div.flex img.right:active {
 section.service {
     width: 100%;
     height: 90vh;
-    margin-top: -85px;
+    margin-top: -126px;
 }
 section.service div.flex {
     display: flex;
@@ -437,7 +439,7 @@ section.category {
 }
 section.category div.title {
     display: flex;
-    margin-top: -21px;
+    margin-top: -71px;
     margin-bottom: 55px;
 }
 section.category div.title h1 {
@@ -495,7 +497,7 @@ section.category div.grid div.flex {
 section.categories {
     width: 100%;
     height: 90vh;
-    margin-top: 600px;
+    margin-top: 540px;
 }
 section.categories div.title {
     display: flex;
@@ -555,7 +557,7 @@ section.categories div.grid div.flex {
 section.brand {
     width: 100%;
     height: 60vh;
-    margin-top: 50px;
+    margin-top: -10px;
 }
 section.brand div.box {
     background: #3c4242;
@@ -598,7 +600,7 @@ section.brand div.box div.flex img {
 section.light {
     width: 100%;
     height: 90vh;
-    margin-top: 50px;
+    margin-top: -10px;
 }
 section.light div.title {
     display: flex;
@@ -618,6 +620,7 @@ section.light div.product {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 45px;
 }
 section.light div.product div.box span.icon {
     position: relative;
@@ -662,7 +665,7 @@ section.light div.product div.flex {
 section.feed {
     width: 100%;
     height: 90vh;
-    margin-top: 50px;
+    margin-top: -10px;
 }
 section.feed div.title {
     display: flex;
@@ -765,7 +768,7 @@ section.footer div.bottom div.media {
     align-items: flex-end;
     justify-content: center;
     margin-top: -50px;
-    padding-bottom: 49px;
+    padding-bottom: 99px;
     border-bottom: 2px solid #5c5c5c;
 }
 section.footer div.bottom div.media div.left {
@@ -875,4 +878,5 @@ section.footer div.bottom div.categories h5 {
     color: #fff;
     text-align: center;
     margin-top: 39px;
+    margin-bottom: -27px;
 }
